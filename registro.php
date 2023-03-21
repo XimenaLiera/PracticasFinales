@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
-<?php include "include/conexion.php";?>
-<?php include "include/Acciones.php";?>
+<?php include "include/conecta.php";?>
+<?php include "include/acciones.php";?>
 <body>
     <div class="container m-o content-justify-center py-2">
         <h1 class="text-success">Registro</h1>
@@ -20,18 +20,17 @@
         </div>
         <div class="row text-center">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <input type="text" name="Apellidos" class="form-control" placeholder="Apellidos" required>
+                <input type="text" name="ApellidoP" class="form-control" placeholder="ApellidoP" required>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <textarea class="form-control">Direccion</textarea>
+                <input type="text" name="ApellidoM" class="form-control" placeholder="ApellidoM" required>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <input type="tel" name="Telefono" class="form-control" placeholder="55-55-55-55" required>
-            </div>
+      
+        </div>
+     
         </div>
         <div class="row text-center">
             <div class="col-sm-12 col-md-12 col-lg-12">
@@ -45,12 +44,12 @@
         </div>
         <div class="row text-center">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <input type="email" name="email" placeholder="email" class="form-control" required>
+                <input type="password" name="password" placeholder="password" class="form-control" required>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <input type="submit" value="registrar" name="btn" class="btn btn-success">
+                <input type="submit" value="registro" name="btn" class="btn btn-success">
             </div>
         </div>
     </form>    
